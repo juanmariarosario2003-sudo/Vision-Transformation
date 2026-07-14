@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vision+ Transformation — Trouve ta voie, avec Rosario Gandonou</title>
+<meta name="description" content="Orientation scolaire et professionnelle, coaching en développement personnel et copywriting pour les jeunes francophones d'Afrique.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">Vision<span>+</span> Transformation</a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="services.html#contact" class="btn btn-gold nav-cta">Réserver une séance</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg width="26" height="20" viewBox="0 0 26 20" fill="none"><path d="M0 1H26M0 10H26M0 19H26" stroke="#16213E" stroke-width="2"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- HERO : le carrefour -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Orientation · Coaching · Copywriting</p>
+      <h1>Tu es à un carrefour.<br>Je t'aide à choisir <em>ta</em> route.</h1>
+      <p class="lede">Chaque année, des milliers de bacheliers béninois choisissent une filière au hasard, sous la pression, sans se connaître. Vision+ Transformation t'accompagne pour transformer ce moment d'incertitude en décision claire — et assumée.</p>
+      <div class="hero-actions">
+        <a href="services.html#contact" class="btn btn-primary">Réserver une séance d'orientation</a>
+        <a href="services.html#guide" class="btn btn-ghost-light">Découvrir le guide à 3 500 FCFA</a>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><b>3</b><span>Domaines d'accompagnement</span></div>
+        <div class="stat"><b>7</b><span>Modules dans le guide</span></div>
+        <div class="stat"><b>UAC</b><span>Sciences de l'éducation</span></div>
+      </div>
+    </div>
+
+    <div>
+      <!-- SVG carrefour : routes qui divergent puis se recentrent -->
+      <svg viewBox="0 0 480 460" width="100%" height="auto" role="img" aria-label="Illustration d'un carrefour avec trois routes menant à un point de décision">
+        <defs>
+          <linearGradient id="roadGold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#F4C878"/>
+            <stop offset="1" stop-color="#E8A33D"/>
+          </linearGradient>
+        </defs>
+
+        <!-- routes de fond -->
+        <path d="M40 400 C 140 300, 180 230, 240 230" stroke="#2E3B60" stroke-width="14" fill="none" stroke-linecap="round"/>
+        <path d="M240 40 C 240 120, 240 170, 240 230" stroke="#2E3B60" stroke-width="14" fill="none" stroke-linecap="round"/>
+        <path d="M440 400 C 340 300, 300 230, 240 230" stroke="#2E3B60" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+        <!-- route claire : celle qu'on choisit -->
+        <path d="M240 230 C 240 300, 240 360, 240 430" stroke="url(#roadGold)" stroke-width="16" fill="none" stroke-linecap="round"/>
+
+        <!-- pointillés de route -->
+        <path d="M240 250 L240 420" stroke="#16213E" stroke-width="2" stroke-dasharray="6 10" opacity=".5"/>
+
+        <!-- panneaux -->
+        <g font-family="JetBrains Mono, monospace" font-size="12" fill="#C9CEDD">
+          <circle cx="40" cy="400" r="5" fill="#E8574A"/>
+          <text x="4" y="422" letter-spacing="0.5">FILIÈRES</text>
+
+          <circle cx="240" cy="40" r="5" fill="#E8574A"/>
+          <text x="196" y="26" letter-spacing="0.5">MÉTIERS</text>
+
+          <circle cx="440" cy="400" r="5" fill="#E8574A"/>
+          <text x="368" y="422" letter-spacing="0.5">CONFIANCE</text>
+        </g>
+
+        <!-- point de décision -->
+        <circle cx="240" cy="230" r="10" fill="#E8A33D"/>
+        <circle cx="240" cy="230" r="18" fill="none" stroke="#E8A33D" stroke-width="1.5" opacity=".5"/>
+        <text x="240" y="205" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#F4C878" letter-spacing="0.5">TOI, ICI</text>
+
+        <!-- destination -->
+        <g transform="translate(240,430)">
+          <path d="M-14 0 L0 -16 L14 0 Z" fill="#E8A33D"/>
+          <text x="0" y="20" text-anchor="middle" font-family="Zilla Slab, serif" font-size="14" fill="#F8F4EA">ta voie</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- CE QUE JE FAIS -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Ce que je fais</p>
+      <h2>Trois routes, un seul objectif : que tu avances avec clarté.</h2>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <span class="num">01 — Orientation</span>
+        <h3>Choix de filière</h3>
+        <p>Bilan de personnalité, exploration des filières post-bac, mise en cohérence entre tes résultats, tes envies et le marché de l'emploi béninois.</p>
+      </div>
+      <div class="card">
+        <span class="num">02 — Coaching</span>
+        <h3>Développement personnel</h3>
+        <p>Retrouver confiance en soi, sortir de la comparaison, poser des objectifs concrets — à partir de vécu réel, pas de théorie récitée.</p>
+      </div>
+      <div class="card">
+        <span class="num">03 — Copywriting</span>
+        <h3>Marketing digital</h3>
+        <p>Rédaction, stratégie de contenu et publicités Meta pour les entrepreneurs et structures qui s'adressent au public francophone africain.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LE GUIDE -->
+<section class="section-alt" id="guide">
+  <div class="wrap grid-2">
+    <div>
+      <p class="eyebrow">Ressource phare</p>
+      <h2>Trouve Ta Voie, Transforme Ta Vie</h2>
+      <p class="lede" style="margin:18px 0 26px;">Un guide en 7 modules pensé pour les nouveaux bacheliers béninois : comprendre ses résultats, éviter les erreurs de choix de filière les plus courantes, et construire un plan d'action réaliste — pas un rêve flou.</p>
+      <div style="display:flex;align-items:center;gap:18px;">
+        <span class="tag tag-coral">3 500 FCFA</span>
+        <span class="tag tag-forest">7 modules</span>
+      </div>
+      <div class="hero-actions" style="margin-top:28px;">
+        <a href="services.html#guide" class="btn btn-primary">Voir le guide</a>
+      </div>
+    </div>
+    <div class="portrait-frame">
+      <svg viewBox="0 0 380 300" width="100%">
+        <rect width="380" height="300" fill="#16213E"/>
+        <g stroke="#E8A33D" stroke-width="2" fill="none" opacity="0.9">
+          <path d="M40 250 L120 130 L200 190 L280 80 L340 60"/>
+        </g>
+        <g fill="#E8574A">
+          <circle cx="40" cy="250" r="5"/>
+          <circle cx="120" cy="130" r="5"/>
+          <circle cx="200" cy="190" r="5"/>
+          <circle cx="280" cy="80" r="5"/>
+          <circle cx="340" cy="60" r="5"/>
+        </g>
+        <text x="40" y="35" font-family="Zilla Slab, serif" font-size="20" fill="#F8F4EA">Module 01 → 07</text>
+        <text x="40" y="60" font-family="JetBrains Mono, monospace" font-size="11" fill="#C9CEDD" letter-spacing="0.5">DE LA CONFUSION AU PLAN D'ACTION</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE / PHILOSOPHIE -->
+<section class="quote-strip">
+  <div class="wrap">
+    <blockquote>
+      « Je n'enseigne pas une théorie apprise dans un livre. Je partage ce que j'ai vécu, pour que tu n'aies pas à te perdre aussi longtemps que moi. »
+      <cite>Rosario Gandonou — Fondateur, Vision+ Transformation</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="section-dark">
+  <div class="wrap" style="text-align:center;">
+    <p class="eyebrow" style="justify-content:center;">Prochaine étape</p>
+    <h2 style="max-width:640px;margin:0 auto 26px;">Ne choisis pas ta filière au hasard.</h2>
+    <p class="lede" style="margin:0 auto 34px;color:#C9CEDD;">Une séance suffit souvent pour transformer le doute en direction claire.</p>
+    <a href="services.html#contact" class="btn btn-gold">Réserver ma séance</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Vision+ Transformation</h4>
+        <p>Orientation scolaire et professionnelle, coaching en développement personnel et copywriting, au service de la jeunesse francophone d'Afrique.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:contact@visionplustransformation.com">contact@visionplustransformation.com</a></li>
+          <li>Porto-Novo, Bénin</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Vision+ Transformation — Rosario Gandonou</span>
+      <span>Fait à Porto-Novo</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
